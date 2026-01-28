@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: 'Special Gothic Expanded One', sans-serif;
+}
+h1 {
+  color: black;
+}
+.font-card-title{
+  color: aliceblue;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.font-card-value{
+  color: aliceblue;
+  padding: 0 0 5% 10%;
+  font-size: 200%;
+}
+.transaction-box{
+  margin: 10% 5% 10% 5%;
+  
+}
+label{
+  display: block;
+}
+.recentTransactionsBox{
+  margin: 10% 5% 10% 5%;
+  background-color: aliceblue;
+}
+.plusPanelMainText{
+  font-size:x-small;
+  padding: 5% 0 0% 6%;
+  display: inline;
+}
+.plusPanelSecText{
+  font-size: xx-small;
+  padding: 1% 0 0 6%;
+  display: inline;
+  opacity: 0.5;
+}
+.plusIcon{
+  margin-left: 7%;
+}
+.addExpenseCategory{
+  
+  padding: 7%;
+  padding-right: 15%;
+}
+
+#textSelectType{
+  font-size:medium;
+}
+
+#selectType{
+  font-size:smaller;
+}
+
+.navText{
+  font-size: x-small;
+}
+.navObj{
+  padding-top: 2%;
+  
+}
